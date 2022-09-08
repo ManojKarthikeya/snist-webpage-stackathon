@@ -3,6 +3,7 @@ import FormInput from "../../Components/Form-input/form-input.component";
 import Button from "@mui/material/Button";
 import "./login.css";
 import GoogleButton from "react-google-button";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -11,7 +12,7 @@ export default function Login() {
     <div className="loginpage">
       <div className="logincontainer">
         <div className="logintext">
-          <div className="logintitle">LOGIN</div>
+          <div className="logintitle">LOGIN AS STUDENT</div>
           <div className="logindesc">
             Hey, Enter your details to get singed into your account.
           </div>
@@ -49,7 +50,8 @@ export default function Login() {
             }}
           />
         </div>
-        <div className="regis">Dont have an Account? <span style={{fontWeight: 'bolder'}}>Register Now</span></div>
+        <div className="regis">Dont have an Account?</div>
+        <Link className="regnow" to='/register'>Register Now</Link>
       </div>
     </div>
   );

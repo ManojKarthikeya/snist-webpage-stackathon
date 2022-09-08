@@ -37,19 +37,19 @@ export default function Login() {
             }}
             required
           />
-          <Button variant="contained" style={{ outerWidth: "400px" }}>
+          <Button variant="contained" className="signinbut">
             Sign In
           </Button>
         </div>
         <div className="glo">
           <div className="glogintext">-or Login with-</div>
-          <GoogleButton
+          <GoogleButton type='light'
             onClick={() => {
               console.log("Google button clicked");
             }}
           />
         </div>
-        <div className="regis">Dont have an Account?<span style={{fontWeight: 'bolder'}}>Register Now</span></div>
+        <div className="regis">Dont have an Account? <span style={{fontWeight: 'bolder'}}>Register Now</span></div>
       </div>
     </div>
   );

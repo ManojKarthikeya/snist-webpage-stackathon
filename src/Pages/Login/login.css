@@ -1,32 +1,55 @@
-.loginpage{
-    background-color: cornsilk;
-    width: 100%;
-    height: 100vh;
-    overflow-y: hidden;
-    display: flex;
-    justify-content: center;
+.loginpage {
+  background-color: cornsilk;
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
 }
 
-.logincontainer{
-    margin-top: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding: 30px;
-    max-width: 25vw;
-    max-height: 70vh;
-    background-color: white;
-    border-radius: 40px;
+.logincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 25vw;
+  background-color: white;
+  border-radius: 40px;
+  min-height: max-content;
+  min-width: min-content;
 }
 
-.logintitle{
-    padding: 20px;
-    font-weight: bolder;
-    font-size: xx-large;
+.logintitle {
+  padding: 10px;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.logindesc {
+  font-size: large;
+}
+.signinbut {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
 }
 
 .logindesc{
+    word-wrap: break-word;
+}
+
+.glogintext{
     padding: 10px;
-    font-size: larger;
+    font-weight: bolder;
+}
+
+.regis{
+    padding-top: 10px;
 }

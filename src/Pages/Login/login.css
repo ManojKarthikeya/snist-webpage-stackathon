@@ -25,6 +25,7 @@
   padding: 5vh;
   align-items: center;
   width: min-content;
+  max-height: 75vh;
 }
 
 .logintitle {
@@ -37,7 +38,7 @@
 }
 
 .logindesc {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .signinbut {
   font-size: 1.2rem;
@@ -52,16 +53,16 @@
 
 .glogintext{
   font-size: 1rem;
-    padding: 15px;
+    padding: 10px;
 }
 
 .regis{
-  padding-top: 20px;
-  font-size: 1.2rem;
+  padding-top: 15px;
+  font-size: 1rem;
 }
 
 .regnow{
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-decoration: none;
   color: black;
   font-weight: bolder;

@@ -9,6 +9,10 @@ import Login from "./Pages/Login/Login";
 import Events from "./Pages/Events/Events";
 import ITdept from "./Pages/ITdept/ITdept";
 import ECM from "./Pages/ECM/ECM";
+import Vision from "./Pages/ECM/subpages/vision";
+import Faculty from "./Pages/ECM/subpages/faculty";
+import Facilities from "./Pages/ECM/subpages/Facilities";
+import Achievements from "./Pages/ECM/subpages/achievements";
 
 function App() {
 	return <div className="App">
@@ -22,6 +26,11 @@ function App() {
       <Route path="/events" element={<Events/>} />
       <Route path="/departments/IT" element={<ITdept/>} />
       <Route path="/departments/ECM" element={<ECM/>} />
+      <Route path='/departments/ECM/vision' element={<Vision/>}/>
+      <Route path='/departments/ECM/Faculty' element={<Faculty/>}/>
+      <Route path='/departments/ECM/Facilities' element={<Facilities/>}/>
+      <Route path='/departments/ECM/Achievements' element={<Achievements/>}/>
+
     </Routes>
   </div>;
 }

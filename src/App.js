@@ -31,6 +31,8 @@ function App() {
       <Route path='/departments/ECM/Facilities' element={<Facilities/>}/>
       <Route path='/departments/ECM/Achievements' element={<Achievements/>}/>
 
+      <Route path="/departments/CSE" element={<Cse/>} />
+      <Route path="/departments/CSE/CseFaculty" element={<CseFaculty/>} />
     </Routes>
   </div>;
 }

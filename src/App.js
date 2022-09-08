@@ -13,6 +13,8 @@ import Vision from "./Pages/ECM/subpages/vision";
 import Faculty from "./Pages/ECM/subpages/faculty";
 import Facilities from "./Pages/ECM/subpages/Facilities";
 import Achievements from "./Pages/ECM/subpages/achievements";
+import Cse from "./Pages/CSE/Cse";
+import CseFaculty from './Pages/CSE/CseFaculty';
 
 function App() {
 	return <div className="App">
@@ -30,7 +32,6 @@ function App() {
       <Route path='/departments/ECM/Faculty' element={<Faculty/>}/>
       <Route path='/departments/ECM/Facilities' element={<Facilities/>}/>
       <Route path='/departments/ECM/Achievements' element={<Achievements/>}/>
-
       <Route path="/departments/CSE" element={<Cse/>} />
       <Route path="/departments/CSE/CseFaculty" element={<CseFaculty/>} />
     </Routes>

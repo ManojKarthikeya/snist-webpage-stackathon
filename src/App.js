@@ -10,6 +10,7 @@ import Events from "./Pages/Events/Events";
 import ITdept from "./Pages/ITdept/ITdept";
 import ECM from "./Pages/ECM/ECM";
 import Cse from "./Pages/CSE/Cse";
+import CseFaculty from "./Pages/CSE/CseFaculty";
 
 function App() {
 	return <div className="App">
@@ -24,6 +25,7 @@ function App() {
       <Route path="/departments/IT" element={<ITdept/>} />
       <Route path="/departments/ECM" element={<ECM/>} />
       <Route path="/departments/CSE" element={<Cse/>} />
+      <Route path="/departments/CSE/CseFaculty" element={<CseFaculty/>} />
     </Routes>
   </div>;
 }

@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  width: 100%;
+  background-color: whitesmoke;
+  justify-content: space-between;
+  align-items: center;
+}
+.headertabs {
+  font-size: larger;
+  display: flex;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.headertab {
+  padding: 20px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+
+.snistlogo {
+  max-width: 350px;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+.headertab {
+  margin: 30px;
+  padding: 10px 5px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.5s ease;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff7777;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  &:hover {
+    color: #ff7777;
+    &::before {
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+  }
+}

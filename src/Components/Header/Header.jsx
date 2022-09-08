@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./header-styles.css";
+import "./header-styles.scss";
 import logo from "./../../Assets/sreenidhi-logo.png";
 
 export default function Header() {

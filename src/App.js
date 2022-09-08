@@ -9,6 +9,7 @@ import Login from "./Pages/Login/Login";
 import Events from "./Pages/Events/Events";
 import ITdept from "./Pages/ITdept/ITdept";
 import ECM from "./Pages/ECM/ECM";
+import Cse from "./Pages/CSE/Cse";
 
 function App() {
 	return <div className="App">
@@ -22,6 +23,7 @@ function App() {
       <Route path="/events" element={<Events/>} />
       <Route path="/departments/IT" element={<ITdept/>} />
       <Route path="/departments/ECM" element={<ECM/>} />
+      <Route path="/departments/CSE" element={<Cse/>} />
     </Routes>
   </div>;
 }

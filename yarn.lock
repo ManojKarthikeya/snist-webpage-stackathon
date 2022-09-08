@@ -7582,7 +7582,7 @@ react-router@6.3.0:
   dependencies:
     history "^5.2.0"
 
-react-scripts@5.0.1:
+react-scripts@^5.0.1:
   version "5.0.1"
   resolved "https://registry.npmjs.org/react-scripts/-/react-scripts-5.0.1.tgz"
   integrity sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ==
@@ -7636,6 +7636,11 @@ react-scripts@5.0.1:
     workbox-webpack-plugin "^6.4.1"
   optionalDependencies:
     fsevents "^2.3.2"
+
+react-table@^7.8.0:
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/react-table/-/react-table-7.8.0.tgz#07858c01c1718c09f7f1aed7034fcfd7bda907d2"
+  integrity sha512-hNaz4ygkZO4bESeFfnfOft73iBUj8K5oKi1EcSHPAibEydfsX2MyU6Z8KCr3mv3C9Kqqh71U+DhZkFvibbnPbA==
 
 react-transition-group@^4.4.5:
   version "4.4.5"

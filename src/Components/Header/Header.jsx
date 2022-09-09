@@ -14,7 +14,7 @@ export default function Header() {
 	const loc = useLocation();
 	useEffect(() => {
 		setfirst(first + 1);
-	}, [loc]);
+	}, [loc,first]);
     const props = useSpring({
       to: { opacity: 1 },
       from: { opacity: 0 },

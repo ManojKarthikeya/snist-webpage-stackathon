@@ -1,7 +1,6 @@
 import React from 'react'
 import './it-styles.css'
 import ITIntake from './IT-intake'
-import FacultyEntry from '../../Components/Faculty-entry/Faculty-entry'
 import { Link } from 'react-router-dom'
 
 export default function ITdept() {
@@ -9,7 +8,7 @@ export default function ITdept() {
     <div className='ITpagecontainer'>
       <div class="IT-HOD">
      <p class="HOD">HOD of IT DEPARTMENT</p>
-      <img src="https://www.sreenidhi.edu.in/staff%20photos/10000072.jpg"/>
+      <img src="https://www.sreenidhi.edu.in/staff%20photos/10000072.jpg" alt='img'/>
       <p>Dr.Sunil Bhutada</p>
       </div>
       <div class="IT-VISION">VISION

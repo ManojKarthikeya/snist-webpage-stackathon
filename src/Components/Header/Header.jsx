@@ -1,13 +1,8 @@
-import React,{useState} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./header-styles.scss";
 import logo from "./../../Assets/sreenidhi-logo.png";
 import { getAuth } from "firebase/auth";
-
-function useForceUpdate(){
-  const [value, setValue] = useState(0); 
-  return () => setValue(value => value + 1);
-}
 
 export default function Header() {
   const auth = getAuth();

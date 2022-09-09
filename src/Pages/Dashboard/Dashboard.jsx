@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { useAuth } from "./../../firebase/authcontext"
-import { Link, useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import { Button,Alert} from "@mui/material"
 
 export default function Dashboard() {

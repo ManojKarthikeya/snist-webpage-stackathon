@@ -19,9 +19,9 @@ import Register from "./Pages/Register/register";
 import { AuthProvider } from "./firebase/authcontext";
 
 import Dashboard from "./Pages/Dashboard/Dashboard";
+import Mechanical from "./Pages/Mechanical/Mechanical";
 
 function App() {
-
 	return (
 		<AuthProvider>
 			<div className="App">
@@ -34,8 +34,12 @@ function App() {
 					<Route path="/events" element={<Events />} />
 					<Route path="/departments/IT" element={<ITdept />} />
 					<Route path="/departments/ECM" element={<ECM />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+					<Route
+						path="/departments/mechanical"
+						element={<Mechanical />}
+					/>
+					<Route path="/login" element={<Login />} />
+					<Route path="/dashboard" element={<Dashboard />} />
 					<Route
 						path="/departments/ECM/vision"
 						element={<Vision />}

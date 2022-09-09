@@ -9,36 +9,50 @@
     padding: 0px;
 }
 
+
 .tile{
+    position: relative;
     margin: 0.2vw;
     cursor: pointer;
     flex-grow: 1;
-    width: 30%;
+    width: 40%;
     font-size: 2.4vw;
     font-weight: bolder;
     display: flex;
     justify-content: center;
     align-items: center;
     word-wrap: break-word;
-    border: 1px solid black;
-    padding: 5vh;
+    /* padding: 5vh; */
     text-decoration: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tile:hover{
+    filter: blur(0px);
+    
 }
 
 .h1textanim{
+    color: white;
+    min-width: 100%;
+    backdrop-filter: blur(6px) saturate(150%) sepia(15%);
+    z-index: 700;
+    position: relative;
     padding: 0px;
     margin: 0px;
 }
 
 .animspan{
+    color: white;
     display: inline-flex;
-    color: cadetblue;
 }
 
 .animspan:nth-of-type(even){
     overflow: hidden;
     transition: ease-in-out 0.5s;
-    color: bisque;
+    color: whitesmoke;
     letter-spacing: -1em;
 }
 
@@ -60,4 +74,11 @@
 
 .tile:hover .animspan:nth-of-type(8){
     transition-delay: 1.5s;
+}
+
+.tiletitle{
+    align-items: center;
+    display: flex;
+    min-width: 100%;
+    height: 100%;
 }

@@ -1,0 +1,41 @@
+.evtext{
+    color: #781515;
+    font-weight: 800;
+    font-size: 3vw;
+    transition: font-size 1s ease-in-out all;
+}
+
+.event-tile{
+    display: flex;
+    backdrop-filter: blur(30px) sepia(20%) brightness(120%);
+    background-color: transparent;
+    margin: 20px;
+    width: 50%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    transition: background-image 1s ease-in-out all;
+    cursor: pointer;
+}
+
+.event-tile:hover:nth-of-type(even){
+    background-image: url('https://thumbs2.imgbox.com/5a/3b/VSFNKJTh_t.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(0.5px);
+}
+
+.event-tile:hover{
+    background-image: url('https://thumbs2.imgbox.com/92/46/G4EEmDZF_t.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(0.5px);
+}
+
+.event-tile:hover .evtext{
+    color: white;
+    font-size: 2vw;
+    transition: font-size 1s ease-in-out all;
+}

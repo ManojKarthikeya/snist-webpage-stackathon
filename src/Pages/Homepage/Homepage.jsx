@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import Map from "../../Components/Map/Map";
 
 export default function Homepage() {
-  return (
-    <div>Homepage</div>
-  )
+	return (
+		<div>
+			{/* <Map isMarkerShown={true} /> */}
+		</div>
+	);
 }

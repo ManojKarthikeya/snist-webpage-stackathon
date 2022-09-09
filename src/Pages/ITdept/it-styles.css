@@ -1,0 +1,120 @@
+.Department {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.vi {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.ITfaculty {
+    text-align: center;
+}
+
+.IT-div {
+    font-size: 20px;
+    font-family: Arial;
+
+}
+
+.IT-mission {
+    font-family: Arial;
+    font-size: 20px;
+
+    overflow-wrap: break-word;
+    transform: scale(1);
+    background-color: wheat;
+    height: 250px;
+    float: none;
+    text-align: justify;
+
+
+}
+
+.IT-M-pos {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: justify;
+
+
+
+}
+
+.IT-M-peo {
+    font-family: Arial;
+    font-size: 20px;
+    background-color: wheat;
+    text-align: justify;
+}
+
+
+
+.IT-PEOs {
+
+    font-size: 20px;
+    font-family: Arial;
+    text-align: justify;
+
+
+
+}
+
+.IT-outcomes {
+    font-size: 20px;
+    font-family: Arial;
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+.ITIntake {
+    display: flex;
+    justify-content: center;
+}
+
+.Heading {
+    text-align: center;
+}
+
+.IT-POs {
+    font-size: 20px;
+    overflow-wrap: break-word;
+    font-family: Arial;
+    transform: scale(1);
+    background-color: antiquewhite;
+
+    float: none;
+    border-radius: 10px;
+
+    text-align: justify;
+
+
+}
+
+.IT-VISION {
+    font-size: 20px;
+    font-family: Arial;
+    text-align: justify;
+
+}
+
+.IT-HOD {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 600px;
+
+
+}

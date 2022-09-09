@@ -20,6 +20,7 @@ import { AuthProvider } from "./firebase/authcontext";
 
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import Mechanical from "./Pages/Mechanical/Mechanical";
+import ITFacultytable from "./Pages/ITdept/Itfacultytable";
 
 function App() {
 	return (
@@ -33,6 +34,7 @@ function App() {
 					<Route path="/gallery" element={<Gallery />} />
 					<Route path="/events" element={<Events />} />
 					<Route path="/departments/IT" element={<ITdept />} />
+					<Route path="/Departments/Itdept/Itfaculty" element={<ITFacultytable/>} />
 					<Route path="/departments/ECM" element={<ECM />} />
 					<Route
 						path="/departments/mechanical"

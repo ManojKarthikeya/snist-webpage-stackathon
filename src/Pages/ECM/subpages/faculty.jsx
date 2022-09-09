@@ -1,14 +1,14 @@
 import React from 'react'
-
+import './../ecm-styles.css'
 export default function Faculty() {
   return (
     <div>
-        <h3>ECM_FACULTY:-</h3>
-        <table>
+        <h3 class="ecm_head">ECM_FACULTY:-</h3>
+        <table className='ecm_table' align="center" border={<solid></solid>} width="80%">
             <tr>
                 <td colspan="6">ECM TEACHING STAFF</td>
             </tr>
-            <tr>
+            <tr className="ecm_col_name">
                 <td>S.No</td>
                 <td>Faculty Name</td>
                 <td>Designation</td>

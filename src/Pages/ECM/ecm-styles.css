@@ -1,0 +1,38 @@
+/* ________________ECM HOME PAGE CSS__________________*/
+.ECMcontent{
+  font-size: xx-large;
+  
+}
+
+.subsececm{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size:x-large;
+}
+/* ________________ECM FACULTY PAGE CSS__________________*/
+tr:nth-child(even){
+   background-color: #eeddd6;
+}
+tr:hover {background-color: #D6EEEE;}
+.ecm_col_name{
+    font-weight: 900;
+}
+tr{font-weight:500;
+}
+.ecm_head{
+    font-size:x-large;
+}
+/* ________________ECM vision PAGE CSS__________________*/
+.list_1{
+    text-align: left;
+}
+.list_2{
+    text-align: left;
+}
+.list_3{
+    text-align: left;
+}
+/* ________________ECM achievemnts PAGE CSS__________________*/
+li{
+    text-align: left;
+}

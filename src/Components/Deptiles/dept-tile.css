@@ -1,0 +1,63 @@
+.deptiles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    min-height: 92.5vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tile{
+    margin: 0.2vw;
+    cursor: pointer;
+    flex-grow: 1;
+    width: 30%;
+    font-size: 2.4vw;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    border: 1px solid black;
+    padding: 5vh;
+    text-decoration: none;
+}
+
+.h1textanim{
+    padding: 0px;
+    margin: 0px;
+}
+
+.animspan{
+    display: inline-flex;
+    color: cadetblue;
+}
+
+.animspan:nth-of-type(even){
+    overflow: hidden;
+    transition: ease-in-out 0.5s;
+    color: bisque;
+    letter-spacing: -1em;
+}
+
+.tile:hover .animspan{
+    letter-spacing: normal;
+}
+
+.tile:hover .animspan:nth-of-type(2){
+    transition-delay: 0s;
+}
+
+.tile:hover .animspan:nth-of-type(4){
+    transition-delay: 0.5s;
+}
+
+.tile:hover .animspan:nth-of-type(6){
+    transition-delay: 1s;
+}
+
+.tile:hover .animspan:nth-of-type(8){
+    transition-delay: 1.5s;
+}

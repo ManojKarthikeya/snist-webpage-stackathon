@@ -1,3 +1,66 @@
 .cse-main{
     align-self: center;
 }
+
+.cse-mission{
+    width: 400px;
+    overflow-wrap: break-word ;
+    transform: scale(1);
+    background-color: bisque;
+    float:none;
+    border-radius: 10px;
+}
+
+.cse-vision{
+    width: 400px;
+    overflow-wrap: break-word ;
+    transform: scale(1);
+    background-color: bisque;
+    float:none;
+    border-radius: 10px;
+}
+
+.cse-b-peo{
+    width: 400px;
+    overflow-wrap: break-word ;
+    transform: scale(1);
+    background-color: bisque;
+    float:none;
+    border-radius: 10px;
+}
+
+.cse-b-po{
+    width: 400px;
+    overflow-wrap: break-word ;
+    transform: scale(1);
+    background-color: bisque;
+    float:none;
+    border-radius: 10px;
+}
+
+.cse-b-pso{
+    width: 400px;
+    overflow-wrap: break-word ;
+    transform: scale(1);
+    background-color: bisque;
+    float:none;
+    border-radius: 10px;
+}
+
+.cse-m-peo{
+    width: 400px;
+    overflow-wrap: break-word ;
+    transform: scale(1);
+    background-color: bisque;
+    float:none;
+    border-radius: 10px;
+}
+
+.cse-m-po{
+    width: 400px;
+    overflow-wrap: break-word ;
+    transform: scale(1);
+    background-color: bisque;
+    float:none;
+    border-radius: 10px;
+}

@@ -22,10 +22,11 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-  padding: 5vh;
+  padding: 3.5vw;
   align-items: center;
   width: min-content;
-  max-height: 75vh;
+  max-height: 70%;
+  max-width: 500px;
 }
 
 .logintitle {
@@ -33,7 +34,7 @@
   padding-right: 10px;
   padding-bottom: 15px;
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 2vw;
   line-break: loose;
 }
 
@@ -52,8 +53,8 @@
 }
 
 .glogintext{
-  font-size: 1rem;
-    padding: 10px;
+  font-size: 10px + 0.5vw;
+    padding: 2vh;
 }
 
 .regis{

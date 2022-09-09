@@ -1,6 +1,6 @@
 .group {
     position: relative;
-    margin: 45px 0;
+    margin: 20px 0;
     margin-right: 15px;
 }
 .group .form-input {
@@ -22,7 +22,7 @@
 }
 .group .form-input:focus ~ .form-input-label {
     top: -14px;
-    font-size: 12px;
+    font-size: 0.7vw;
     color: black;
 }
 .group input {
@@ -31,7 +31,7 @@
 }
 .group .form-input-label {
     color: grey;
-    font-size: 16px;
+    font-size: 0.8vw + 10px;
     font-weight: normal;
     position: absolute;
     pointer-events: none;
@@ -41,6 +41,6 @@
 }
 .group .form-input-label.shrink {
     top: -14px;
-    font-size: 12px;
+    font-size: 0.7vw;
     color: black;
 }

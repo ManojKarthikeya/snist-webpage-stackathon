@@ -6,7 +6,7 @@ export default function Facilities() {
         <div>
             <h1>ECM-FACILITIES</h1>
             <h1>RESEARCH AND ACADEMIC LABS</h1>
-            <table>
+            <table align='center'  border={<solid></solid>} width="80%">
                 <tr>
                     <td>S.No</td>
                     <td>NAME OF THE LAB</td>

@@ -5,6 +5,7 @@ import "./login.css";
 import GoogleButton from "react-google-button";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../firebase/authcontext";
+import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 
 export default function Login() {
 	const [email, setEmail] = useState("");
@@ -19,7 +20,7 @@ export default function Login() {
 			setError("");
 			setLoading(true);
 			await login(email, password);
-      navigate("/");
+			navigate("/");
 		} catch {
 			setError("Failed to log in");
 		}
@@ -27,6 +28,18 @@ export default function Login() {
 		setPassword("");
 
 		setLoading(false);
+	}
+
+	async function handleGooglepopup(e) {
+		const provider = new GoogleAuthProvider();
+		const auth = getAuth();
+		signInWithPopup(auth, provider)
+			.then((result) => {
+				const credential =
+					GoogleAuthProvider.credentialFromResult(result);
+					navigate('/');
+			})
+			.catch((error) => {});
 	}
 
 	return (
@@ -71,10 +84,9 @@ export default function Login() {
 				<div className="glo">
 					<div className="glogintext">-or Login with-</div>
 					<GoogleButton
+						className="gbutton"
 						type="light"
-						onClick={() => {
-							console.log("clicked google button");
-						}}
+						onClick={handleGooglepopup}
 					/>
 				</div>
 				<div className="regis">

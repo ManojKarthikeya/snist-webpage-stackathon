@@ -8,12 +8,12 @@ function ECM(){
             <div className="title">
                 <h1>ELECTRONICS AND COMPUTER ENGINEERING-ECM</h1>
             </div>
-            <div>
+            <div class="ECMcontent">
                 <h2>CONTENTS:-</h2>
-                <Link to='/departments/ECM/vision'>Vision</Link>
-                <Link to='/departments/ECM/faculty'>Faculty</Link>
-                <Link to='/departments/ECM/Facilities'>Facilities</Link>
-                <Link to='/departments/ECM/vision'>Achievements</Link>
+                <button ><Link className="subsececm"to='/departments/ECM/vision'>Vision</Link></button><br></br>
+                <button ><Link className="subsececm"to='/departments/ECM/faculty'>Faculty</Link></button><br></br>
+                <button ><Link className="subsececm" to='/departments/ECM/Facilities'>Facilities</Link></button><br></br>
+                <button ><Link className="subsececm"to='/departments/ECM/Achievements'>Achievements</Link></button><br></br>
             </div>
         </div>
     )

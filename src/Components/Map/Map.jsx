@@ -1,5 +1,5 @@
 import React from "react";
-import { GoogleMap, Marker,GoogleApiWrapper } from "react-google-maps";
+import { GoogleMap, Marker } from "react-google-maps";
 import "./map-styles.css";
 
 function Map(props) {
@@ -14,3 +14,6 @@ function Map(props) {
 		</GoogleMap>
 	);
 }
+
+
+export default Map;

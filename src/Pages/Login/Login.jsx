@@ -35,8 +35,6 @@ export default function Login() {
 		const auth = getAuth();
 		signInWithPopup(auth, provider)
 			.then((result) => {
-				const credential =
-					GoogleAuthProvider.credentialFromResult(result);
 					navigate('/');
 			})
 			.catch((error) => {});

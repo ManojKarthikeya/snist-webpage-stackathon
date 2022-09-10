@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import "./header-styles.scss";
 import logo from "./../../Assets/sreenidhi-logo.png";
@@ -8,13 +8,10 @@ import { useSpring, animated,config } from 'react-spring'
 
 export default function Header() {
   const nav = useNavigate();
-	const [first, setfirst] = useState(2);
 	const auth = getAuth();
 	const user = auth.currentUser;
 	const loc = useLocation();
-	useEffect(() => {
-		setfirst(first + 1);
-	}, []);
+
     const props = useSpring({
       to: { opacity: 1 },
       from: { opacity: 0 },
@@ -28,7 +25,7 @@ export default function Header() {
 		return <animated.div style={props} className="altheader"  onClick={()=>{nav(-1)}} > <ArrowBackIosSharpIcon htmlColor="white"/> BACK </animated.div>;
 	} else
 		return (
-			<div className="header">
+			<div className="header" key={window.location.pathname}>
 				<Link to="/">
 					<img className="snistlogo" src={logo} alt="SNIST" />
 				</Link>

@@ -156,7 +156,8 @@ export default function Adastra() {
 					<ReactPlayer
 						className="adasvideo"
 						muted={true}
-						url="https://youtu.be/r4wyWGmwncI"
+						controls={true}
+						url="https://firebasestorage.googleapis.com/v0/b/snist-stackathon.appspot.com/o/ADASTRA%202022%20AFTER%20MOVIE%20_%20IEEE%20SNIST.mp4?alt=media&token=4787b8c1-0bb0-4b89-89ba-9153ccef5c50"
 					/>
 					<div className="albumbutcons">
 						<button

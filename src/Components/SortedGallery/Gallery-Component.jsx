@@ -2,12 +2,9 @@ import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import snimage from "./Images";
-// import Photo from "./SortablePhoto";
 import { SortableContainer }from "react-sortable-hoc";
-import	{SortableElement } from "react-sortable-hoc";
 import { arrayMove } from "react-sortable-hoc";
 
-// const SortablePhoto = SortableElement(item => <Photo {...item} />);
 const SortableGallery = SortableContainer(({ items, onClick }) => (
 	<Gallery  photos={items} onClick={onClick} />
   ));

@@ -1,0 +1,15 @@
+.cse-btech-conts{
+    margin: auto;
+    max-width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.cse-b-cont{
+    max-width: 70%;
+    background-color: aliceblue;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 20px;
+}

@@ -1,10 +1,13 @@
 import React from "react";
+import { mechImg } from "../../Assets/CarousalImg";
+import Slider from "../../Components/Slider/Slider";
 import "./mechanical-styles.css";
 
 export default function Mechanical() {
 	return (
 		<div>
 			<h3>Mechanical Engineering</h3>
+			<Slider dataSlider={mechImg} />
 			<div className="vismiscontainter">
 				<div className="viscontainer">
 					<div className="visubcon">

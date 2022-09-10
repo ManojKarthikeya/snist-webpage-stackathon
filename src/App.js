@@ -12,7 +12,6 @@ import ECM from "./Pages/ECM/ECM";
 import Vision from "./Pages/ECM/subpages/vision";
 import Faculty from "./Pages/ECM/subpages/faculty";
 import Facilities from "./Pages/ECM/subpages/Facilities";
-import Achievements from "./Pages/ECM/subpages/achievements";
 import Cse from "./Pages/CSE/Cse";
 import CseFaculty from "./Pages/CSE/CseFaculty";
 import Register from "./Pages/Register/register";
@@ -23,6 +22,9 @@ import ECE from "./Pages/ECE/ECE";
 import EEE from "./Pages/EEE/EEE";
 import Adastra from "./Pages/Adastra/Adastra";
 import Itfaculty from "./Pages/ITdept/Itfaculty";
+import CseBtech from "./Pages/CSE/CseBtech";
+import CseMtech from "./Pages/CSE/CseMtech";
+import Sreevision from "./Pages/SreeVision/Sreevision";
 
 function App() {
 	return (
@@ -36,10 +38,13 @@ function App() {
 					<Route path="/gallery" element={<Gallery />} />
 					<Route path="/events" element={<Events />} />
 					<Route path="/departments/IT" element={<ITdept />} />
-					<Route path="/Departments/Itdept/Itfaculty" element={<Itfaculty/>} />
+					<Route
+						path="/Departments/Itdept/Itfaculty"
+						element={<Itfaculty />}
+					/>
 					<Route path="/departments/ECM" element={<ECM />} />
-					<Route path="/departments/ECE" element={<ECE/>} />
-					<Route path="/departments/EEE" element={<EEE/>} />
+					<Route path="/departments/ECE" element={<ECE />} />
+					<Route path="/departments/EEE" element={<EEE />} />
 					<Route
 						path="/departments/mechanical"
 						element={<Mechanical />}
@@ -58,17 +63,16 @@ function App() {
 						path="/departments/ECM/Facilities"
 						element={<Facilities />}
 					/>
-					<Route
-						path="/departments/ECM/Achievements"
-						element={<Achievements />}
-					/>
 					<Route path="/departments/CSE" element={<Cse />} />
 					<Route
 						path="/departments/CSE/CseFaculty"
 						element={<CseFaculty />}
 					/>
 					<Route path="/register" element={<Register />} />
-					<Route path="/events/adastra" element={<Adastra/>} />
+					<Route path="/events/adastra" element={<Adastra />} />
+					<Route path="departments/CSE/CseBtech" element={<CseBtech/>} />
+					<Route path="/departments/CSE/CseMtech" element={<CseMtech/>} />
+					<Route path="/events/Sreevision" element={<Sreevision/>} />
 				</Routes>
 			</div>
 		</AuthProvider>

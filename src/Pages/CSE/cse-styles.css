@@ -1,5 +1,12 @@
 .cse-main{
     align-self: center;
+    background-color: #A5C9CA;
+}
+
+.vis-mis{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .cse-mission{
@@ -9,6 +16,12 @@
     background-color: bisque;
     float:none;
     border-radius: 10px;
+    padding: 30px;
+    flex: 0 1 calc(25% - 1em);
+}
+
+.cse-mission:hover{
+    background-color: #FFCB91;
 }
 
 .cse-vision{
@@ -16,51 +29,129 @@
     overflow-wrap: break-word ;
     transform: scale(1);
     background-color: bisque;
-    float:none;
+    float:right;
     border-radius: 10px;
+    padding: 30px;
+    flex: 0 1 calc(25% - 1em);
 }
 
-.cse-b-peo{
-    width: 400px;
-    overflow-wrap: break-word ;
-    transform: scale(1);
-    background-color: bisque;
-    float:none;
-    border-radius: 10px;
+.cse-vision:hover{
+    background-color: #FFCB91;
 }
 
-.cse-b-po{
-    width: 400px;
-    overflow-wrap: break-word ;
-    transform: scale(1);
-    background-color: bisque;
-    float:none;
-    border-radius: 10px;
+
+
+.cse-table{
+  border-radius: 10px;
+  margin: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-.cse-b-pso{
-    width: 400px;
-    overflow-wrap: break-word ;
-    transform: scale(1);
-    background-color: bisque;
-    float:none;
-    border-radius: 10px;
+/* .cse-main{
+    background-color: #EFFFFD;
+    
+} */
+
+/* .Btech-link:link, .Btech-link:visited {
+    background-color: #f44336;
+    color: white;
+     border-radius: 4px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    flex: 0 1 calc(25% - 1em);
+  }
+  
+  .Btech-link:hover, .Btech-link:active {
+    background-color: red;
+  }
+
+  .Mtech-link:link, .Mtech-link:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    flex: 0 1 calc(25% - 1em);
+  }
+  
+  .Mtech-link:hover, .Mtech-link:active {
+    background-color: red;
+  }
+
+  .Faculty-link:link, .Faculty-link:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    flex: 0 1 calc(25% - 1em);
+  }
+  
+  .Faculty-link:hover, .Faculty-link:active {
+    background-color: red;
+  } */
+
+  .img-cse{
+    height: 350px;
+    flex: 0 1 calc(25% - 1em);
+  }
+
+  .img-cse-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .link-cse{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.cse-m-peo{
-    width: 400px;
-    overflow-wrap: break-word ;
-    transform: scale(1);
-    background-color: bisque;
-    float:none;
-    border-radius: 10px;
+.cse-link-tiles{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.cse-m-po{
-    width: 400px;
-    overflow-wrap: break-word ;
-    transform: scale(1);
-    background-color: bisque;
-    float:none;
-    border-radius: 10px;
+.cse-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(169, 193, 214);
+  padding: 20px;
+  width: 15%;
+}
+
+.cse-link:hover{
+  background-color: rgb(122, 150, 175);
+}
+
+.cse-mtech{
+  display: flex;
+  flex-direction: row;
+  max-width: 80%;
+  margin: 40px auto;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.cse-mt{
+  background-color: aliceblue;
+  width: 40%;
+  border-radius: 20px;
+  padding: 30px;
 }

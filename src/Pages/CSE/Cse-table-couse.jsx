@@ -77,7 +77,7 @@ export default function CseTableCouse() {
                 <th
                   {...column.getHeaderProps()}
                   style={{
-                    borderBottom: 'solid 3px red',
+                    borderBottom: 'solid 3px aliceblue',
                     background: 'aliceblue',
                     color: 'black',
                     fontWeight: 'bold',

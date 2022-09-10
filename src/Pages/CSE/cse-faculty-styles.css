@@ -1,0 +1,6 @@
+.cse-faculty {display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    justify-self: center;
+    margin: auto;
+}

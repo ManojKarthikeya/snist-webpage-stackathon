@@ -13,15 +13,19 @@ export default function Events() {
     delay: 1500,
     config: config.molasses,
   })
+  const ar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 	return (
 		<div className="event-container">
+			{ar.map(() => (
+				<div key={Math.random()} className="firefly" />
+			))}
 			<div className="event-left">
 				<EventText />
 			</div>
 			<div className="event-right">
 				<animated.div style={props} className="upcmingtxt">UPCOMING EVENTS</animated.div>
 				<Eventile name="Adastra" />
-				<Eventile name="Sree Vision" />
+				<Eventile name="SreeVision" />
 			</div>
 		</div>
 	);

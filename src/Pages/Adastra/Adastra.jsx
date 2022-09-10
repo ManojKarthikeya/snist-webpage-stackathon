@@ -11,7 +11,7 @@ import FormInput from "../../Components/Form-input/form-input.component";
 async function updateCount(setCount) {
 	const db = getFirestore(app);
 	const querySnapshot = await getDocs(collection(db, "adastradet"));
-	setCount(querySnapshot.size)
+	setCount(querySnapshot.size);
 }
 
 export default function Adastra() {
@@ -38,9 +38,9 @@ export default function Adastra() {
 	const [name, setName] = useState("");
 	const [phone, setPhone] = useState("");
 	const [branch, setBranch] = useState("");
-	useEffect(()=>{
+	useEffect(() => {
 		updateCount(setCount);
-	},[])
+	}, []);
 	return (
 		<div className="adastra-container">
 			{ar.map(() => (
@@ -138,7 +138,11 @@ export default function Adastra() {
 						<button
 							className="adasbutton"
 							onClick={() => {
-								submitHandler();
+								if (name || phone) {
+									submitHandler();
+								} else{
+									alert("Please Enter name or Phone number.")
+								}
 							}}
 						>
 							Submit
@@ -146,7 +150,7 @@ export default function Adastra() {
 					</div>
 					<div className="countcont">
 						<div className="adascountdesc adtext">
-							Registered Students Count
+							Registered Students
 						</div>
 						<div className="adascount adtext">{count}</div>
 					</div>
@@ -163,8 +167,11 @@ export default function Adastra() {
 						<button
 							className="adasbutton"
 							onClick={() => {
-								window.location.href =
-									"https://www.facebook.com/media/set/?set=a.4766228166811387&type=3";
+								window.open(
+									"https://www.facebook.com/media/set/?set=a.4766228166811387&type=3",
+									"_blank",
+									"noopener,noreferrer"
+								);
 							}}
 						>
 							Album 1
@@ -172,8 +179,11 @@ export default function Adastra() {
 						<button
 							className="adasbutton"
 							onClick={() => {
-								window.location.href =
-									"https://www.facebook.com/media/set/?set=a.4774835062617364&type=3";
+								window.open(
+									"https://www.facebook.com/media/set/?set=a.4774835062617364&type=3",
+									"_blank",
+									"noopener,noreferrer"
+								);
 							}}
 						>
 							Album 2
@@ -181,8 +191,11 @@ export default function Adastra() {
 						<button
 							className="adasbutton"
 							onClick={() => {
-								window.location.href =
-									"https://www.facebook.com/media/set/?set=a.4789715574462646&type=3";
+								window.open(
+									"https://www.facebook.com/media/set/?set=a.4789715574462646&type=3",
+									"_blank",
+									"noopener,noreferrer"
+								);
 							}}
 						>
 							Album 3

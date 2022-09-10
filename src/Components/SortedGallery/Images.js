@@ -340,6 +340,250 @@ const snimage = [
 		width: 5,
 		height: 3,
 	},
+	{
+		src: "https://i.postimg.cc/FRBFZgK1/gpic-28.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/j2nxkwWc/gpic1-Copy-2.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/4Nz7Jqd5/gpic10.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/2yWqLXxC/gpic11.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/qv4tgw6d/gpic11-1.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/bwgZnn1S/gpic12.jpg",
+		width: 4,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/B6XP4vLL/gpic13.jpg",
+		width: 9,
+		height: 5,
+	},
+	{
+		src: "https://i.postimg.cc/fWSSPJQ1/gpic14.jpg",
+		width: 4,
+		height: 5,
+	},
+	{
+		src: "https://i.postimg.cc/q77zx7Gb/gpic15.jpg",
+		width: 5,
+		height: 4,
+	},
+	{
+		src: "https://i.postimg.cc/8CnsKVK1/gpic16.jpg",
+		width: 5,
+		height: 3,
+	},
+
+	{
+		src: "https://i.postimg.cc/tTKJbNGw/gpic17.jpg",
+		width: 5,
+		height: 3,
+	},
+
+	{
+		src: "https://i.postimg.cc/rm0s7Y35/gpic18.jpg",
+		width: 5,
+		height: 5,
+	},
+
+	{
+		src: "https://i.postimg.cc/8cL5zf15/gpic19.jpg",
+		width: 5,
+		height: 3,
+	},
+
+	{
+		src: "https://i.postimg.cc/DwPXcH3Z/gpic2-Copy-2.jpg",
+		width: 6,
+		height: 3,
+	},
+
+	{
+		src: "https://i.postimg.cc/gchrDQvW/gpic20.jpg",
+		width: 5,
+		height: 3,
+	},
+
+	{
+		src: "https://i.postimg.cc/gkPjBsD6/gpic21.jpg",
+		width: 5,
+		height: 3,
+	},
+
+	{
+		src: "https://i.postimg.cc/5Nqycz7K/gpic23.jpg",
+		width: 5,
+		height: 3,
+	},
+
+	{
+		src: "https://i.postimg.cc/P5SqJjkm/gpic24.jpg",
+		width: 5,
+		height: 4,
+	},
+
+	{
+		src: "https://i.postimg.cc/pLWTPd3W/gpic25.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/pdyLn623/gpic26.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/fbFT7fyy/gpic27.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/Vv9f8yR0/gpic27.png",
+		width: 6,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/FzXr8FjQ/gpic28.jpg",
+		width: 3,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/Y9W2dLL3/gpic29.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/9MKRMjZx/gpic3-Copy-2.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/vZ2QMtWh/gpic30.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/ZRpZ8kXs/gpic31.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/bY1NbbhY/gpic32.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/SKwkYQ1z/gpic33.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/43KX3HPg/gpic34.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/SNrS1hRw/gpic35.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/g22YfT6r/gpic36.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/VLY1CVg4/gpic37.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/gjKW7Vzv/gpic38.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/xTtQy3FQ/gpic39.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/zfDR27qk/gpic4-Copy-2.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/595bjVB6/gpic40.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/Jz0LTH9k/gpic41.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/P57k0rjF/gpic42.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/wMzzFfpq/gpic43.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/cJ8NWy11/gpic44.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/HjGYGYXg/gpic5-Copy-2.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/T2Bg2ncR/gpic6-Copy-2.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/7LBJFz6r/gpic7.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/YqcLBMp0/gpic7-Copy-2.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/MZn189VP/gpic8.jpg",
+		width: 5,
+		height: 3,
+	},
+	{
+		src: "https://i.postimg.cc/Bn0FHsyk/gpic9.jpg",
+		width: 5,
+		height: 3,
+	},
 ];
 
 export default snimage;

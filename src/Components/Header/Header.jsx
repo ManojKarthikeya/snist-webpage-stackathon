@@ -20,7 +20,7 @@ export default function Header() {
       config: config.molasses,
     })
   
-	if (loc.pathname === "/events" || loc.pathname === "/events/Adastra") {
+	if (loc.pathname === "/events" || loc.pathname === "/events/Adastra" || loc.pathname === "/events/SreeVision") {
     
 		return <animated.div style={props} className="altheader"  onClick={()=>{nav(-1)}} > <ArrowBackIosSharpIcon htmlColor="white"/> BACK </animated.div>;
 	} else

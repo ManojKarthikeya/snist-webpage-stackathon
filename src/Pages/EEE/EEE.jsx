@@ -1,10 +1,13 @@
 import React from "react";
+import { eeeImg } from "../../Assets/CarousalImg";
+import Slider from "../../Components/Slider/Slider";
 import "./eee-styles.css";
 
 export default function EEE() {
 	return (
 		<div>
 			<h3>Electrial And Electronics Engineering</h3>
+			<Slider dataSlider={eeeImg} />
 			<div className="vismiscontainter">
 				<div className="viscontainer">
 					<div className="visubcon">

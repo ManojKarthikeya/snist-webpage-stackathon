@@ -17,10 +17,12 @@ import Cse from "./Pages/CSE/Cse";
 import CseFaculty from "./Pages/CSE/CseFaculty";
 import Register from "./Pages/Register/register";
 import { AuthProvider } from "./firebase/authcontext";
-
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import Mechanical from "./Pages/Mechanical/Mechanical";
 import ITFacultytable from "./Pages/ITdept/Itfacultytable";
+import ECE from "./Pages/ECE/ECE";
+import EEE from "./Pages/EEE/EEE";
+import Adastra from "./Pages/Adastra/Adastra";
 
 function App() {
 	return (
@@ -36,6 +38,8 @@ function App() {
 					<Route path="/departments/IT" element={<ITdept />} />
 					<Route path="/Departments/Itdept/Itfaculty" element={<ITFacultytable/>} />
 					<Route path="/departments/ECM" element={<ECM />} />
+					<Route path="/departments/ECE" element={<ECE/>} />
+					<Route path="/departments/EEE" element={<EEE/>} />
 					<Route
 						path="/departments/mechanical"
 						element={<Mechanical />}
@@ -64,9 +68,9 @@ function App() {
 						element={<CseFaculty />}
 					/>
 					<Route path="/register" element={<Register />} />
+					<Route path="/events/adastra" element={<Adastra/>} />
 				</Routes>
 			</div>
-			;
 		</AuthProvider>
 	);
 }

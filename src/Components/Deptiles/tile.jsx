@@ -10,7 +10,7 @@ export default function Tile({ alph, ext, img, link }) {
 			style={{ backgroundImage: `url(${img})` }}
 		>
 			<div className="tiletitle">
-				<p className="h1textanim">
+				<div className="h1textanim">
 					<span className="animspan">{alph[0]}</span>
 					<span className="animspan">{ext[0]}</span>
 					<br></br>
@@ -20,7 +20,7 @@ export default function Tile({ alph, ext, img, link }) {
 					<span className="animspan">{alph[2]}</span>
 					<span className="animspan">{ext[2]}</span>
 					<br></br>
-				</p>
+				</div>
 			</div>
 		</Link>
 	);

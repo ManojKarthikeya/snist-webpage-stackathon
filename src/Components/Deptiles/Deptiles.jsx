@@ -28,22 +28,22 @@ export default function Deptiles() {
 			))}
 			<Link to='/departments/IT' className="tile" style={{ backgroundImage: `url('https://unsplash.com/photos/p0qKsW3uqA4/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTF8fGl0fGVufDB8fHx8MTY2MjcwNzc3Mw&force=true&w=1920')`, marginBottom: '0px'}}>
 				<div className="tiletitle">
-					<p className="h1textanim">
+					<div className="h1textanim">
 						<span className="animspan">I</span>
 						<span className="animspan">nformation </span>
 						<br></br>
 						<span className="animspan">T</span>
 						<span className="animspan">echnology</span>
 						<br></br>
-					</p>
+					</div>
 				</div>
 			</Link>
 			<Link to='/departments/mechanical' className="tile" style={{ backgroundImage: `url('https://unsplash.com/photos/w95Fb7EEcjE/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjYyNzEzODc5&force=true&w=640')` , marginBottom: '0px'}}>
 				<div className="tiletitle">
-					<p className="h1textanim">
+					<div className="h1textanim">
 						<span className="animspan">Mech</span>
 						<span className="animspan">anical </span>
-					</p>
+					</div>
 				</div>
 			</Link>
 		</div>

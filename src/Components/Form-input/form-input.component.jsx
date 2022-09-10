@@ -2,7 +2,7 @@ import React from "react";
 
 import "./form-input-styles.css";
 
-const FormInput = ({ handleChange, label, ...otherProps }) => (
+const FormInput = ({ handleChange,color='black',label, ...otherProps }) => (
 	<div className="group">
 		<input
 			className="form-input"
@@ -10,7 +10,7 @@ const FormInput = ({ handleChange, label, ...otherProps }) => (
 			{...otherProps}
 		/>
 		{label ? (
-			<label
+			<label style={{color:color}}
 				className={`${
 					otherProps.value.length ? "shrink" : ""
 				} form-input-label`}
@@ -19,4 +19,4 @@ const FormInput = ({ handleChange, label, ...otherProps }) => (
 	</div>
 );
 
-export default FormInput;
+export default FormInput; 

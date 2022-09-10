@@ -2,31 +2,43 @@ import React, { useState } from "react";
 import FormInput from "../../Components/Form-input/form-input.component";
 import { Button, Alert } from "@mui/material";
 import { useAuth } from "../../firebase/authcontext";
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 import "./register.css";
+import { getFirestore } from "firebase/firestore";
+import { collection, addDoc } from "firebase/firestore"; 
+import app from "../../firebase/firebase.util";
 
 export default function Register() {
-	const [username, setUsername] = useState("");
+	const [admission, setAdmission] = useState("");
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
 	const { signup } = useAuth();
 	const [error, setError] = useState("");
 	const [loading, setLoading] = useState(false);
+	const db = getFirestore(app);
+	const nav = useNavigate();
 
 	async function handleSubmit() {
 		try {
 			setError("");
 			setLoading(true);
 			await signup(email, password);
-			//   history.push("/")
+			const docRef = await addDoc(collection(db, 'creds'), {
+				email: email,
+				password: password,
+				enrollementNumber: admission
+			  });
+			  console.log("Document written with ID: ", docRef.id);
+			  nav('/');
 		} catch {
 			setError("Failed to create an account");
 		}
 		setEmail("");
-		setUsername("");
+		setAdmission("");
 		setPassword("");
 		setLoading(false);
 	}
+
 
 	return (
 		<div className="regsiter-container">
@@ -36,12 +48,12 @@ export default function Register() {
 				</div>
 				{error && <Alert severity="error">{error}</Alert>}
 				<FormInput
-					name="number"
-					type="number"
-					value={username}
+					name="Admission Number"
+					type="text"
+					value={admission}
 					label="Admission Number"
 					handleChange={(e) => {
-						setUsername(e.target.value);
+						setAdmission(e.target.value); 
 					}}
 					required
 				></FormInput>

@@ -1,0 +1,153 @@
+.adastra-webpage {
+  background-color: black;
+  padding-top: 5vh;
+  min-height: max-content;
+}
+
+.adastraHeading {
+  font-weight: 800;
+  font-size: 5vw;
+}
+
+.adastra-container {
+  background-color: black;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.adastra-subtext {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 800;
+  font-size: 3vw;
+}
+
+.adastratitle {
+  display: flex;
+  flex-direction: column;
+  font-size: 150px;
+  font-weight: 800;
+  outline: none;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, rgb(120, 20, 20) 0%, #de005e 25%, #d55c3b 50%, #a90147 75%, rgb(120, 20, 20) 100%);
+  background-size: 400%;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+  to {
+    background-position: 400%;
+  }
+}
+
+.adtext{
+  font-size: calc(5px + 1.2vw);
+  font-weight: bolder;
+  color: #a90147;
+  background: linear-gradient(135deg, rgb(120, 20, 20) 0%, #de005e 25%, #d55c3b 50%, #a90147 75%, rgb(120, 20, 20) 100%);
+  background-size: 400%;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 20s linear infinite;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.adastra-desc-cont{
+  margin: 70px auto;
+  gap: 10%;
+  max-width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.adastra-img{
+  width: 35%;
+}
+
+.registerbanner{
+  display: flex;
+justify-content: center;
+align-items: center;
+  width: 100%;
+  height: 5%;
+  background: linear-gradient(135deg, rgb(120, 20, 20) 0%, #de005e 25%, #d55c3b 50%, #a90147 75%, rgb(120, 20, 20) 100%);
+  background-size: 400%;
+  background-clip: border-box;
+  animation: animate 20s linear infinite;
+  font-size: 3vw;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.registercont{
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  border-color: #a90147;
+  gap: 80px;
+}
+
+.adasbutton{
+  cursor: pointer;
+  font-size: 0.8vw;
+  font-family: 'Poppins', sans-serif;;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #a90147;
+}
+
+.adasbutton:hover{
+  color: white;
+  background-color: #de005e;
+}
+
+.countcont{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.adascountdesc{
+  font-size: 2vw;
+}
+
+.adascount{
+  font-size: 5vw;
+}
+
+.adasvideo{
+  padding: 10px;
+  
+}
+
+.albumbutcons{
+  height: 100%;
+  min-width: 170px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.adas2022li{
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  min-width: 80%;
+}

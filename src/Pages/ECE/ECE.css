@@ -1,0 +1,99 @@
+.viscontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.miscontainer{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 2vw;
+    max-width: 35%;
+}
+
+.vismiscontainter{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap : 20px
+}
+
+.visubcon{
+    border-radius: 20px;
+    padding: 2vw;
+    background-color: aliceblue;
+}
+
+h4{
+    font-size: 1.5vw;
+}
+
+h3{
+    font-size: 2vw;
+}
+
+p{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1vw;
+}
+
+li{
+    font-size: 1vw;
+}
+
+.hodcont{
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.hodtextcont{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+h6{
+    font-size: 0.8vw;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+h5{
+    font-size: 1.2vw;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hodimg{
+    width: 50%;
+    border-radius: 10px;
+}
+
+.peosmcont{
+    
+    border-radius: 20px;
+    padding: 2%;
+    margin: 20px auto;
+    background-color: aliceblue;
+    word-break: normal;
+    max-width: 65%;
+}
+
+.poutcomesm{
+    border-radius: 20px;
+    padding: 2%;
+    margin: auto;
+    background-color: aliceblue;
+    word-break: normal;
+    max-width: 65%;
+}

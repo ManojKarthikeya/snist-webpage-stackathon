@@ -14,7 +14,7 @@ export default function Header() {
 	const loc = useLocation();
 	useEffect(() => {
 		setfirst(first + 1);
-	}, [loc,first]);
+	}, []);
     const props = useSpring({
       to: { opacity: 1 },
       from: { opacity: 0 },
@@ -23,9 +23,9 @@ export default function Header() {
       config: config.molasses,
     })
   
-	if (loc.pathname === "/events") {
+	if (loc.pathname === "/events" || loc.pathname === "/events/Adastra") {
     
-		return <animated.div style={props} className="altheader"  onClick={()=>{nav(-1)}} > <ArrowBackIosSharpIcon htmlColor="rgb(66, 61, 63)"/> BACK </animated.div>;
+		return <animated.div style={props} className="altheader"  onClick={()=>{nav(-1)}} > <ArrowBackIosSharpIcon htmlColor="white"/> BACK </animated.div>;
 	} else
 		return (
 			<div className="header">

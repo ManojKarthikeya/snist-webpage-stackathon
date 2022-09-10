@@ -1,29 +1,31 @@
 import React from "react";
-import "./mechanical-styles.css";
+import "./eee-styles.css";
 
-export default function Mechanical() {
+export default function EEE() {
 	return (
 		<div>
-			<h3>Mechanical Engineering</h3>
+			<h3>Electrial And Electronics Engineering</h3>
 			<div className="vismiscontainter">
 				<div className="viscontainer">
 					<div className="visubcon">
 						<h4>Vision</h4>
 						<p>
-							To emerge as a renowned center in Mechanical
-							Engineering by following the best practices in
-							teaching, learning and research.
+							To emerge as a leading Department in Technical
+							Education and Research with focus to
+							produceprofessionally competent and socially
+							sensitive engineers capable of working in
+							multidisciplinary global environment.
 						</p>
 					</div>
 					<div className="hodcont">
 						<img
-							src="https://thumbs2.imgbox.com/21/03/VQqSRv5T_t.png"
+							src="https://thumbs2.imgbox.com/5f/2f/mFUgWK6x_t.png"
 							alt="Loading"
 							className="hodimg2"
 						/>
 						<div className="hodtextcont">
-							<h5>Dr. T. Ch. Siva Reddy</h5>
-							<h6>HOD, ME Dept.</h6>
+							<h5>Dr. C. Bhargava</h5>
+							<h6 class="hg6">Professor & HOD, EEE Dept.</h6>
 						</div>
 					</div>
 				</div>
@@ -31,74 +33,74 @@ export default function Mechanical() {
 					<h4>Mission</h4>
 					<ul>
 						<li>
-							To provide good academic environment for pursuing
-							high quality undergraduate, Post graduate and
-							Doctoral programmes in mechanical engineering that
-							will prepare our graduates for outstanding
-							professional careers.
+							Preparation: To prepare students to excel in
+							postgraduate programmes or to succeed in electrical
+							industry/technical profession through global,
+							rigorous education.{" "}
 						</li>
 						<li>
-							To provide service to practicing engineers,
-							industry, government, educational and technical
-							societies through effective engagement with these
-							groups and by providing professional knowledge.
+							Core Competence: To provide students with a solid
+							foundation in mathematical, scientific and
+							engineering fundamentals required to solve
+							engineering problems and also to pursue higher
+							studies.{" "}
 						</li>
 						<li>
-							To ensure that our students are well trained in
-							interpersonal skills, team work, professional
-							ethics, practical industrial training and
-							participate in professional society activities.
+							Breadth: To train students with good scientific and
+							engineering breadth so as to comprehend, analyze,
+							design, and create novel products and solutions for
+							the real life problems.{" "}
 						</li>
 						<li>
-							Conduct and proliferate high quality research work
-							to students for lifetime of learning.
+							Professionalism: To inculcate in students’
+							professional and ethical attitude, effective
+							communication skills, team work skills,
+							multidisciplinary approach, and an ability to relate
+							engineering issues to broader social context.{" "}
+						</li>
+						<li>
+							Learning Environment: To provide student with an
+							academic environment aware of excellence,
+							leadership, written ethical codes and guidelines,
+							and the life-long learning needed for a successful
+							professional career.
 						</li>
 					</ul>
 				</div>
 			</div>
 			<div className="peosmcont">
 				<h4 class="peo">Programme Educational Objectives (PEOs):</h4>
-				<p>
-					The PEO's have been designed so as to provide the students
-					with Strong Fundamentals, Equip them with Modern tools for
-					Investigation, make them Understand the concept of Team
-					work, Earn the Trust and Respect of others and in the
-					process make them Life-long learners.
-				</p>
-
 				<ul>
 					<li>
-						Graduates will have a strong foundation in fundamentals
-						of mathematics, natural and environmental sciences, and
-						basic engineering skills with abilities of problem
-						analysis, design and development of optimal solutions to
-						engineering problems and make them to pursue higher
-						studies in nationally / internationally reputed
-						institutes or research and development activities thus
-						making them life-long learners.
+						Preparation: To prepare students to excel in
+						postgraduate programmes or to succeed in electrical
+						industry/technical profession through global, rigorous
+						education.
 					</li>
 					<li>
-						Graduates can apply the knowledge of theory, tools of
-						investigation, and use of modern tools to solve complex
-						problems and ecome professionally competent and globally
-						employable engineers to assess health, safety, legal,
-						societal, and environmental and sustainable issues
-						maintaining ethical principles.
+						Core Competence: To provide students with a solid
+						foundation in mathematical, scientific and engineering
+						fundamentals required to solve engineering problems and
+						also to pursue higher studies.
 					</li>
 					<li>
-						Graduates will be trained in Safety, regulatory and
-						Intellectual Property related issues in broader social
-						context and sustainable development, Professional
-						ethics, communication skills, team work skills,
-						leadership and multidisciplinary approach.
+						Breadth: To train students with good scientific and
+						engineering breadth so as to comprehend, analyze,
+						design, and create novel products and solutions for the
+						real life problems.
 					</li>
 					<li>
-						Graduates will have ability to work effectively as an
-						individual, a team member, a leader or an entrepreneur
-						with awareness of gender sensitiveness apart from having
-						good communication, project and finance management
-						skills, earn the trust and respect of others as
-						effective and ethical team member.
+						Professionalism: To inculcate in students’ professional
+						and ethical attitude, effective communication skills,
+						team work skills, multidisciplinary approach, and an
+						ability to relate engineering issues to broader social
+						context.
+					</li>
+					<li>
+						Learning Environment: To provide student with an
+						academic environment aware of excellence, leadership,
+						written ethical codes and guidelines, and the life-long
+						learning needed for a successful professional career.
 					</li>
 				</ul>
 			</div>

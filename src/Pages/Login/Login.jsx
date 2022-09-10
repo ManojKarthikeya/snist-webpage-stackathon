@@ -35,7 +35,7 @@ export default function Login() {
 		const auth = getAuth();
 		signInWithPopup(auth, provider)
 			.then((result) => {
-					navigate('/');
+				navigate("/");
 			})
 			.catch((error) => {});
 	}
@@ -57,7 +57,7 @@ export default function Login() {
 							setEmail(e.target.value);
 						}}
 						required
-					></FormInput>
+					/>
 					<FormInput
 						name="password"
 						type="password"

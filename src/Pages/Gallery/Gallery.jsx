@@ -1,8 +1,8 @@
 import React from 'react'
-import SortMain from '../../Components/SortedGallery/SortMain';
+import GalleryComponent from '../../Components/SortedGallery/Gallery-Component';
 
 export default function Gallery() {
   return (
-    <div><SortMain/></div>
+    <div><GalleryComponent/></div>
   )
 }

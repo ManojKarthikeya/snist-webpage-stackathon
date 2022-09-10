@@ -6,6 +6,7 @@
 }
 
 .event-tile{
+    text-decoration: none;
     display: flex;
     backdrop-filter: blur(30px) sepia(20%) brightness(120%);
     background-color: transparent;
@@ -19,7 +20,7 @@
 }
 
 .event-tile:hover:nth-of-type(even){
-    background-image: url('https://thumbs2.imgbox.com/5a/3b/VSFNKJTh_t.jpg');
+    background-image: url('https://thumbs2.imgbox.com/92/46/G4EEmDZF_t.jpg') ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,7 +28,7 @@
 }
 
 .event-tile:hover{
-    background-image: url('https://thumbs2.imgbox.com/92/46/G4EEmDZF_t.jpg');
+    background-image:  url('https://thumbs2.imgbox.com/5a/3b/VSFNKJTh_t.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

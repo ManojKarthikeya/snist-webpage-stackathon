@@ -1,10 +1,13 @@
 import React from "react";
+import { eceImgs } from "../../Assets/CarousalImg";
+import Slider from "../../Components/Slider/Slider";
 import "./ECE.css";
 
 export default function ECE() {
 	return (
 		<div>
 			<h3>Electrial and Communication Engineering</h3>
+			<Slider dataSlider={eceImgs} />
 			<div className="vismiscontainter">
 				<div className="viscontainer">
 					<div className="visubcon">

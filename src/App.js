@@ -19,10 +19,10 @@ import Register from "./Pages/Register/register";
 import { AuthProvider } from "./firebase/authcontext";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import Mechanical from "./Pages/Mechanical/Mechanical";
-import ITFacultytable from "./Pages/ITdept/Itfacultytable";
 import ECE from "./Pages/ECE/ECE";
 import EEE from "./Pages/EEE/EEE";
 import Adastra from "./Pages/Adastra/Adastra";
+import Itfaculty from "./Pages/ITdept/Itfaculty";
 
 function App() {
 	return (
@@ -36,7 +36,7 @@ function App() {
 					<Route path="/gallery" element={<Gallery />} />
 					<Route path="/events" element={<Events />} />
 					<Route path="/departments/IT" element={<ITdept />} />
-					<Route path="/Departments/Itdept/Itfaculty" element={<ITFacultytable/>} />
+					<Route path="/Departments/Itdept/Itfaculty" element={<Itfaculty/>} />
 					<Route path="/departments/ECM" element={<ECM />} />
 					<Route path="/departments/ECE" element={<ECE/>} />
 					<Route path="/departments/EEE" element={<EEE/>} />

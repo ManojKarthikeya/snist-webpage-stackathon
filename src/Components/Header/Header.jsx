@@ -42,6 +42,7 @@ export default function Header() {
 					<Link className="headertab" to="/gallery">
 						Gallery
 					</Link>
+					<Link className="headertab" to='/research'>Research</Link>
 					{user ? (
 						<Link className="headertab" to="/dashboard">
 							Dashboard

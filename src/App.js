@@ -25,6 +25,7 @@ import Itfaculty from "./Pages/ITdept/Itfaculty";
 import CseBtech from "./Pages/CSE/CseBtech";
 import CseMtech from "./Pages/CSE/CseMtech";
 import Sreevision from "./Pages/SreeVision/Sreevision";
+import Research from "./Pages/Research/research";
 
 function App() {
 	return (
@@ -73,6 +74,8 @@ function App() {
 					<Route path="departments/CSE/CseBtech" element={<CseBtech/>} />
 					<Route path="/departments/CSE/CseMtech" element={<CseMtech/>} />
 					<Route path="/events/Sreevision" element={<Sreevision/>} />
+					<Route path="/Research" element={<Research/>} />
+
 				</Routes>
 			</div>
 		</AuthProvider>

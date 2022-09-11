@@ -96,7 +96,10 @@ align-items: center;
   width: fit-content;
   border-color: #a90147;
   gap: 80px;
+  max-width: 90vw;
+  flex-wrap: wrap;
 }
+
 
 .adasbutton{
   cursor: pointer;

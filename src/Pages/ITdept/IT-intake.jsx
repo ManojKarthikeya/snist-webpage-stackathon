@@ -13,7 +13,7 @@ export default function ITIntake() {
 			},
 			{
 				col1: "M.Tech",
-				col2: "COMPUTER NETWORKS AND INFORMATION TECHNOLOGY",
+				col2: "Computer networks & Information Security",
 				col3: "PG",
 				col4: "M.Tech(CNIS)",
 				col5: "024",

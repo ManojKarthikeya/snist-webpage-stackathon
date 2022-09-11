@@ -21,34 +21,38 @@
 }
 
 .IT-mission {
-    font-family: Arial;
-    font-size: 20px;
-    overflow-wrap: break-word;
-    transform: scale(1);
-    background-color: wheat;
-    height: 250px;
-    float: none;
-    text-align: justify;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 2vw;
+    max-width: 35%;
 }
 
 .IT-M-pos {
-    font-family: Arial;
-    font-size: 20px;
-    text-align: justify;
+    border-radius: 20px;
+    padding: 2%;
+    margin: auto;
+    background-color: aliceblue;
+    word-break: normal;
+    max-width: 65%;
 }
 
 .IT-M-peo {
-    font-family: Arial;
-    font-size: 20px;
-    background-color: wheat;
-    text-align: justify;
+    border-radius: 20px;
+    padding: 2%;
+    margin: 20px auto;
+    background-color: aliceblue;
+    word-break: normal;
+    max-width: 65%;
 }
 
 .IT-PEOs {
 
-    font-size: 20px;
-    font-family: Arial;
-    text-align: justify;
+    border-radius: 20px;
+    padding: 2%;
+    margin: 20px auto;
+    background-color: aliceblue;
+    word-break: normal;
+    max-width: 65%;
 }
 
 .IT-outcomes {
@@ -66,27 +70,48 @@
 }
 
 .IT-POs {
-    font-size: 20px;
-    overflow-wrap: break-word;
-    font-family: Arial;
-    transform: scale(1);
-    background-color: antiquewhite;
-    float: none;
-    border-radius: 10px;
-    text-align: justify;
+    border-radius: 20px;
+    padding: 2%;
+    margin:20px auto;
+    background-color: aliceblue;
+    word-break: normal;
+    max-width: 65%;
+
 }
 
 .IT-VISION {
-    font-size: 20px;
-    font-family: Arial;
-    text-align: justify;
+    border-radius: 20px;
+    padding: 2vw;
+    background-color: aliceblue;
+}
+
+
+
+.IT-HOD {
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
 
 }
 
-.IT-HOD {
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 600px;
+.IT-pos-peos{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
 
+.IT-vis-mis{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+    
+}
 
+.IT-outcomes{
+    display: flex;
+    justify-content: center;
 }

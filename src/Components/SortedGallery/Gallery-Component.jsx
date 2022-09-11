@@ -38,6 +38,7 @@ export default function GalleryComponent() {
 								srcset: x.srcSet,
 								caption: x.title,
 							}))}
+							
 						/>
 					</Modal>
 				) : null}

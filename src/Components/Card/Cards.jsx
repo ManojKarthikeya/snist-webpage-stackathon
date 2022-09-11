@@ -16,7 +16,7 @@ export default function Cards({ num, name, desc}) {
 			<div class="data-card">
 				<animated.h3>{number.to(n => n.toFixed(0))}</animated.h3>
 				<h4>{name}</h4>
-				<div className="sadf">{desc}</div>
+				<div className="card-text">{desc}</div>
 			</div>
 		</div>
 	);

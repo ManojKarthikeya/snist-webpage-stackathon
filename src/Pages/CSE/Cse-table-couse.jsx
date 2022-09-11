@@ -69,7 +69,7 @@ export default function CseTableCouse() {
         prepareRow,
       } = useTable({ columns, data })
     return (
-        <table {...getTableProps()} style={{ border: 'solid 1px blue' }} className='CseTableCouse'>
+        <table {...getTableProps()} style={{ border: 'solid 1px blue',maxWidth: '70%'}} className='CseTableCouse'>
         <thead>
           {headerGroups.map(headerGroup => (
             <tr {...headerGroup.getHeaderGroupProps()}>

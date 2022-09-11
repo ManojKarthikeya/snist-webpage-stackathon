@@ -163,8 +163,8 @@ export default function ITdept() {
 		<div className="IT-outcomes">
 					<ITIntake className="ITIntake" />
 				</div>
-				<div className="ITfaculty">
-				<Link to="/Departments/Itdept/Itfaculty">IT Faculty</Link>
+				<div className="ITfaculty" style={{display:'flex',justifyContent:'center', margin: '20px'}}>
+				<Link className="cse-link" to="/Departments/Itdept/Itfaculty">IT Faculty</Link>
 			</div>
 	</div>)
 }

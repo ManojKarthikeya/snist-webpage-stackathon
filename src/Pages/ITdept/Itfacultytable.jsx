@@ -80,7 +80,7 @@ export default function ITFacultytable() {
 		useTable({ columns, data });
 
 	return (
-		<table {...getTableProps()} style={{ border: "solid 1px blue" }}>
+		<table {...getTableProps()} style={{ border: "solid 1px blue" ,maxWidth: '70%'}}>
 			<thead>
 				{headerGroups.map((headerGroup) => (
 					<tr {...headerGroup.getHeaderGroupProps()}>

@@ -83,9 +83,11 @@ body{
 }
 
 .grrr{
+  pointer-events: all;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  overflow-y: hidden;
 }
 
 .writetous{

@@ -20,7 +20,7 @@ export default function Mechanical() {
 					</div>
 					<div className="hodcont">
 						<img
-							src="https://thumbs2.imgbox.com/21/03/VQqSRv5T_t.png"
+							src="https://firebasestorage.googleapis.com/v0/b/snist-stackathon.appspot.com/o/VQqSRv5T_t.png?alt=media&token=f23b686c-d3ec-4cbe-b3fa-1d49f67e1eb9"
 							alt="Loading"
 							className="hodimg2"
 						/>

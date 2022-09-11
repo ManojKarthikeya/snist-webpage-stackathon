@@ -44,7 +44,7 @@ export default function Login() {
 		<div className="loginpage">
 			<div className="logincontainer">
 				<div className="logintext">
-					<div className="logintitle">LOGIN AS STUDENT</div>
+					<div className="logintitle">LOGIN</div>
 				</div>
 				<div className="loginfields">
 					{error && <Alert severity="error">{error}</Alert>}

@@ -6,8 +6,8 @@
     border-radius: 20px;
     background-color: white;
     padding: 2vw;
-    max-width: 10vw;
-    min-width : 350px
+    min-width: 20vw;
+    padding-right: 1vw;
 }
 
 .regsiter-container{

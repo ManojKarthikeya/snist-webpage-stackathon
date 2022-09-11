@@ -1,0 +1,21 @@
+.hmpg-start{
+    display: flex;
+}
+
+.hmpg-title{
+    text-align: left;
+}
+
+.snist-text{
+    word-break: break-all;
+}
+
+.asdgrs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imasdp{
+    visibility: hidden;
+}

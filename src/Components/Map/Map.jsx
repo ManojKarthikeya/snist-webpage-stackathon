@@ -1,19 +1,23 @@
-// import React from "react";
-// import { GoogleMap, Marker } from "react-google-maps";
-// import "./map-styles.css";
+import React from "react";
+import "./map-styles.css";
 
-// function Map(props) {
-// 	return (
-// 		<GoogleMap
-// 			defaultZoom={8}
-// 			defaultCenter={{ lat: -34.397, lng: 150.644 }}
-// 		>
-// 			{props.isMarkerShown && (
-// 				<Marker position={{ lat: -34.397, lng: 150.644 }} />
-// 			)}
-// 		</GoogleMap>
-// 	);
-// }
+import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
+
+function GMap({google, mapStyles}) {
+    return (
+        <Map 
+          google={google}
+          zoom={17}
+          initialCenter={{ lat: 17.455373447850583,  lng: 78.66668962005761}}
+          style={mapStyles}
+        >
+            <Marker position={{ lat: 17.455373447850583,  lng: 78.66668962005761}} />
+
+        </Map>
+    );
+}
 
 
-// export default Map;
+export default GoogleApiWrapper({
+    apiKey: 'AIzaSyCuwGWzCtiTkFg1wDEh1f0YiOLgq2_01Ic'
+  })(GMap);;

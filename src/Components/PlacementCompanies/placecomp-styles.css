@@ -1,0 +1,16 @@
+.comp-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 70vw;
+    justify-content: center;
+}
+
+.comp{
+    margin: 10px;
+    width: 35px;
+}
+
+.flexcont2{
+    margin-top: 3vh;
+}

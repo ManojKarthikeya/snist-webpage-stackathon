@@ -29,20 +29,21 @@ export default function Header() {
 				<Link to="/">
 					<img className="snistlogo" src={logo} alt="SNIST" />
 				</Link>
+				
 				<div className="headertabs">
+				<Link className="headertab" to="/events">
+						Events
+					</Link>
+					<Link className="headertab" to='/research'>Research</Link>
 					<Link className="headertab" to="/departments">
 						Departments
-					</Link>
-					<Link className="headertab" to="/campus">
-						Campus
-					</Link>
-					<Link className="headertab" to="/events">
-						Events
 					</Link>
 					<Link className="headertab" to="/gallery">
 						Gallery
 					</Link>
-					<Link className="headertab" to='/research'>Research</Link>
+					<Link className="headertab" to="/campus">
+						Campus
+					</Link>
 					{user ? (
 						<Link className="headertab" to="/dashboard">
 							Dashboard

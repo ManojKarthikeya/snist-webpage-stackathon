@@ -22,7 +22,7 @@ export default function EEE() {
 					</div>
 					<div className="hodcont">
 						<img
-							src="https://thumbs2.imgbox.com/5f/2f/mFUgWK6x_t.png"
+							src="https://lh4.googleusercontent.com/AT9-YfDOuBPytIrOIIftdP0JKKjxqy7P57Qch_bbzOj_stYHvLn-jAS6sGAl45IkD0VZsYhXE4WXQr5ytu2IKFCtoolzRRewy8_4xyuxaUJRUWLwKGMHx9ygi_pk0a5QXKd4SpMU"
 							alt="Loading"
 							className="hodimg2"
 						/>

@@ -20,7 +20,7 @@
 }
 
 .event-tile:hover:nth-of-type(even){
-    background-image: url('https://thumbs2.imgbox.com/92/46/G4EEmDZF_t.jpg') ;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/snist-stackathon.appspot.com/o/G4EEmDZF_t.jpg?alt=media&token=ac489889-af26-4096-96ab-8f428dce692e') ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@
 }
 
 .event-tile:hover{
-    background-image:  url('https://thumbs2.imgbox.com/5a/3b/VSFNKJTh_t.jpg');
+    background-image:  url('https://firebasestorage.googleapis.com/v0/b/snist-stackathon.appspot.com/o/rrr.jpg?alt=media&token=1168c513-84d4-4c51-ad3c-b73da248e214');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -45,5 +45,5 @@ export const mechImg = [
 	},
 	{
 		link: `https://i.ibb.co/VH1Jj29/Whats-App-Image-2022-09-09-at-6-25-20-PM.jpg`,
-	},``
+	},
 ];

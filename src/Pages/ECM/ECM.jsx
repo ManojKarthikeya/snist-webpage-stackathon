@@ -8,7 +8,7 @@ function ECM() {
 	return (
 		<div className="ECMpagemain">
 			<div>
-				<h3>Electrial and Communication Engineering</h3>
+				<h3>Electrical and Communication Engineering</h3>
 				<Slider dataSlider={ecmImg} />
 				<div className="vismiscontainter">
 					<div className="viscontainer">

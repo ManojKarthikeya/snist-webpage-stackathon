@@ -24,7 +24,7 @@ export default function ECE() {
 					</div>
 					<div className="hodcont">
 						<img
-							src="https://thumbs2.imgbox.com/20/b7/7B3kDiJj_t.png"
+							src="https://firebasestorage.googleapis.com/v0/b/snist-stackathon.appspot.com/o/Screenshot%202022-09-10%20015725.png?alt=media&token=c2c4386d-cddb-486b-992f-fce353b65fc5"
 							alt="Loading"
 							className="hodimg"
 						/>

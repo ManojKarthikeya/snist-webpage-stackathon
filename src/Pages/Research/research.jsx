@@ -4,7 +4,7 @@ import "./research-styles.scoped.scss";
 export default function Research() {
 	return (
 		<div className="main__wrapper">
-			<main>
+			<main className="minf">
 				<h1 className="allH1">The SNIST Times</h1>
 				<aside>
 					<div
@@ -153,7 +153,7 @@ export default function Research() {
 					<figure>
 						<img
 							className="allImg"
-							src="https://thumbs2.imgbox.com/75/a8/tscPBEeM_t.jpg" alt="img"
+							src="https://firebasestorage.googleapis.com/v0/b/snist-stackathon.appspot.com/o/867774ba-98c1-4314-9467-9397ec9dcd50.jpg?alt=media&token=a13988ad-454f-4389-901f-a4ab2842b0f3" alt="img"
 						></img>
 					</figure>
 				</div>
@@ -171,7 +171,7 @@ export default function Research() {
 					<div className="cssgrid-collection__image" target="_blank">
 						<img
 							className="allImg"
-							src="https://thumbs2.imgbox.com/b2/97/75ngLIVJ_t.jpg" alt="img"
+							src="https://firebasestorage.googleapis.com/v0/b/snist-stackathon.appspot.com/o/sreenidhi-institute-of-science-and-technology-ghatkesar-rangareddy-colleges-4687zlz.jpg?alt=media&token=f509a463-a9b4-476a-9c2e-01206fb6329d" alt="img"
 						></img>
 					</div>
 					<div className="cssgrid-collection__content">
